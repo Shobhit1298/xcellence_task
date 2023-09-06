@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xcellence/widgets/chart.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -144,7 +145,8 @@ class _HomePageState extends State<HomePage> {
                 "(Trend chart on mood)",
                 style: TextStyle(color: Colors.white, fontSize: 10),
               ),
-            )
+            ),
+            const ChartWidget(),
           ],
         ),
       ),
